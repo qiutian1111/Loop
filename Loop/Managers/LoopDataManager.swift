@@ -234,6 +234,21 @@ final class LoopDataManager {
 
     fileprivate var carbsOnBoard: CarbValue?
 
+    fileprivate var requiredCarbs: HKQuantity? {
+        didSet {
+            if settings.freeAPSSettings.showRequiredCarbsOnAppBadge {
+                let number = requiredCarbs?.doubleValue(for: .gram()) ?? 0
+                DispatchQueue.main.async {
+                    UIApplication.shared.applicationIconBadgeNumber = Int(number)
+                }
+            } else {
+                DispatchQueue.main.async {
+                    UIApplication.shared.applicationIconBadgeNumber = 0
+                }
+            }
+        }
+    }
+
     var basalDeliveryState: PumpManagerStatus.BasalDeliveryState? {
         get {
             return lockedBasalDeliveryState.value
@@ -246,7 +261,7 @@ final class LoopDataManager {
     private let lockedBasalDeliveryState: Locked<PumpManagerStatus.BasalDeliveryState?>
 
     fileprivate var lastRequestedBolus: DoseEntry?
-    
+
     private var lastLoopStarted: Date?
 
     /// The last date at which a loop completed, from prediction to dose (if dosing is enabled)
@@ -296,7 +311,7 @@ final class LoopDataManager {
             backgroundTask = .invalid
         }
     }
-    
+
     private func loopDidComplete(date: Date, duration: TimeInterval) {
         lastLoopCompleted = date
         NotificationManager.clearLoopNotRunningNotifications()
@@ -338,6 +353,7 @@ extension LoopDataManager {
             doseStore.basalProfile = newValue
             UserDefaults.appGroup?.basalRateSchedule = newValue
             notify(forChange: .preferences)
+            notifyUpload(forChange: .preferences)
 
             if let newValue = newValue, let oldValue = doseStore.basalProfile, newValue.items != oldValue.items {
                 AnalyticsManager.shared.didChangeBasalRateSchedule()
@@ -365,6 +381,7 @@ extension LoopDataManager {
             carbsOnBoard = nil
 
             notify(forChange: .preferences)
+            notifyUpload(forChange: .preferences)
         }
     }
 
@@ -416,6 +433,7 @@ extension LoopDataManager {
                 self.insulinEffect = nil
 
                 self.notify(forChange: .preferences)
+                self.notifyUpload(forChange: .preferences)
             }
         }
     }
@@ -458,7 +476,7 @@ extension LoopDataManager {
             HKObjectType.categoryType(forIdentifier: HKCategoryTypeIdentifier.sleepAnalysis)!
         ].compactMap { $0 })
     }
-    
+
     /// All the HealthKit types to be shared by stores
     private var shareTypes: Set<HKSampleType> {
         return Set([
@@ -471,7 +489,7 @@ extension LoopDataManager {
     var sleepDataAuthorizationRequired: Bool {
         return carbStore.healthStore.authorizationStatus(for: HKObjectType.categoryType(forIdentifier: HKCategoryTypeIdentifier.sleepAnalysis)!) == .notDetermined
     }
-    
+
     var sleepDataSharingDenied: Bool {
         return carbStore.healthStore.authorizationStatus(for: HKObjectType.categoryType(forIdentifier: HKCategoryTypeIdentifier.sleepAnalysis)!) == .sharingDenied
     }
@@ -908,6 +926,15 @@ extension LoopDataManager {
         )
     }
 
+    private func notifyUpload(forChange context: LoopUpdateContext) {
+        NotificationCenter.default.post(name: .LoopDataUpload,
+            object: self,
+            userInfo: [
+                type(of: self).LoopUpdateContextKey: context.rawValue
+            ]
+        )
+    }
+
     /// Computes amount of insulin from boluses that have been issued and not confirmed, and
     /// remaining insulin delivery from temporary basal rate adjustments above scheduled rate
     /// that are still in progress.
@@ -1201,7 +1228,7 @@ extension LoopDataManager {
         }
 
         let pumpStatusDate = doseStore.lastAddedPumpData
-        
+
         let startDate = Date()
 
         guard startDate.timeIntervalSince(glucose.startDate) <= settings.inputDataRecencyInterval else {
@@ -1249,7 +1276,7 @@ extension LoopDataManager {
         else {
             throw LoopError.configurationError(.generalSettings)
         }
-        
+
         guard lastRequestedBolus == nil
         else {
             // Don't recommend changes if a bolus was just requested.
@@ -1270,7 +1297,7 @@ extension LoopDataManager {
         } else {
             lastTempBasal = nil
         }
-        
+
         let tempBasal = predictedGlucose.recommendedTempBasal(
             to: glucoseTargetRange,
             at: predictedGlucose[0].startDate,
@@ -1283,7 +1310,7 @@ extension LoopDataManager {
             rateRounder: rateRounder,
             isBasalRateScheduleOverrideActive: settings.scheduleOverride?.isBasalRateScheduleOverriden(at: startDate) == true
         )
-        
+
         if let temp = tempBasal {
             self.logger.default("Current basal state: \(String(describing: basalDeliveryState))")
             self.logger.default("Recommending temp basal: \(temp) at \(startDate)")
@@ -1435,7 +1462,7 @@ extension LoopDataManager {
         }
 
         let microBolusUnits = volumeRounder(rawBolusUnits)
-        
+
         guard microBolusUnits > 0 else {
             completion(.canceled(date: startDate, recommended: insulinReq, reason: "Microbolus < then supported volume."), nil)
             return
@@ -1635,7 +1662,7 @@ extension LoopDataManager {
             }
             return loopDataManager.recommendedTempBasal
         }
-        
+
         var recommendedBolus: (recommendation: BolusRecommendation, date: Date)? {
             dispatchPrecondition(condition: .onQueue(loopDataManager.dataAccessQueue))
             guard loopDataManager.lastRequestedBolus == nil else {
@@ -1785,6 +1812,7 @@ extension LoopDataManager {
 
 extension Notification.Name {
     static let LoopDataUpdated = Notification.Name(rawValue: "com.loopkit.Loop.LoopDataUpdated")
+    static let LoopDataUpload = Notification.Name(rawValue: "com.loopkit.Loop.LoopDataUpload")
     static let LoopRunning = Notification.Name(rawValue: "com.loopkit.Loop.LoopRunning")
     static let LoopCompleted = Notification.Name(rawValue: "com.loopkit.Loop.LoopCompleted")
 }
