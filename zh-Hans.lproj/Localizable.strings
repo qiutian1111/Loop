@@ -1,8 +1,8 @@
 /* Lesson subtitle */
-"Computes the percentage of glucose measurements within a specified range" = "Beregner procentdelen af ​​glukosemålinger inden for et specificeret interval";
+"Computes the percentage of glucose measurements within a specified range" = "Computes the percentage of glucose measurements within a specified range";
 
 /* Title of the button to begin lesson execution */
-"Continue" = "Fortsæt";
+"Continue" = "Continue";
 
 /* Placeholder for upper range entry */
 "Maximum" = "Maximum";
@@ -11,22 +11,22 @@
 "Minimum" = "Minimum";
 
 /* Lesson title */
-"Modal Day" = "Modal Dag";
+"Modal Day" = "Modal Day";
 
 /* Lesson result text for no data */
-"No data available" = "Ingen data tilgængelige";
+"No data available" = "No data available";
 
 /* Section title for glucose range */
-"Range" = "Interval";
+"Range" = "Range";
 
 /* Title of config entry */
-"Start Date" = "Start Dato";
+"Start Date" = "Start Date";
 
 /* Lesson title */
-"Time in Range" = "Tme in Range";
+"Time in Range" = "Time in Range";
 
 /* Lesson subtitle */
-"Visualizes the most frequent glucose values by time of day" = "Visualiserer de hyppigste blodsukker værdier fordelt på dagen";
+"Visualizes the most frequent glucose values by time of day" = "Visualizes the most frequent glucose values by time of day";
 
 /* Unit string for a count of calendar weeks */
 "Weeks" = "Weeks";
