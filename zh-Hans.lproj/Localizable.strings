@@ -2,13 +2,13 @@
 "%1$@ v%2$@" = "%1$@ v%2$@";
 
 /* Title of the user activity for adding carbs */
-"Add Carb Entry" = "Agregar Registro de Carbs";
+"Add Carb Entry" = "Lisää hiilihydraatteja";
 
 /* Lesson subtitle */
-"Computes the percentage of glucose measurements within a specified range" = "Calcula el porcentaje de medidas de glucosa entre una gama especificada";
+"Computes the percentage of glucose measurements within a specified range" = "Laskee glukoosimittausten prosenttimäärän määritellyllä alueella";
 
 /* Title of the button to begin lesson execution */
-"Continue" = "Continuar";
+"Continue" = "Jatka";
 
 /* The short unit display string for decibles */
 "dB" = "dB";
@@ -17,40 +17,40 @@
 "g" = "g";
 
 /* Placeholder for upper range entry */
-"Maximum" = "Máximo";
+"Maximum" = "Maksimi";
 
 /* The short unit display string for milligrams of glucose per decilter */
 "mg/dL" = "mg/dL";
 
 /* Placeholder for lower range entry */
-"Minimum" = "Mínimo";
+"Minimum" = "Minimi";
 
 /* The short unit display string for millimoles of glucose per liter */
 "mmol/L" = "mmol/L";
 
 /* Lesson title */
-"Modal Day" = "Día modal";
+"Modal Day" = "Tyypillinen päivä";
 
 /* Lesson result text for no data */
-"No data available" = "Datos no disponibles";
+"No data available" = "Tietoja ei saatavilla";
 
 /* Format string for combining localized numeric value and unit. (1: numeric value)(2: unit) */
 "QUANTITY_VALUE_AND_UNIT" = "%1$@ %2$@";
 
 /* Section title for glucose range */
-"Range" = "Rango";
+"Range" = "Alue";
 
 /* Title of config entry */
-"Start Date" = "Fecha de Inicio";
+"Start Date" = "Aloitusaika";
 
 /* Lesson title */
-"Time in Range" = "Tiempo en Rango";
+"Time in Range" = "Aika tavoitealueella";
 
 /* The short unit display string for international units of insulin */
 "U" = "U";
 
 /* Lesson subtitle */
-"Visualizes the most frequent glucose values by time of day" = "Visualiza los valores de glucosa más frecuentes por hora del día";
+"Visualizes the most frequent glucose values by time of day" = "Näyttää yleisimmät glukoosiarvot vuorokaudenajan mukaan";
 
 /* Unit string for a count of calendar weeks */
-"Weeks" = "Semanas";
+"Weeks" = "Viikkoa";
