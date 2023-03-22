@@ -11,31 +11,31 @@
 "%1$@ – %2$@ %3$@" = "%1$@ – %2$@ %3$@";
 
 /* HUD row title for COB */
-"Active Carbs" = "Akt. hiilari";
+"Active Carbs" = "Glucides actifs";
 
 /* HUD row title for IOB */
-"Active Insulin" = "Akt. insuliini";
+"Active Insulin" = "Insuline active";
 
 /* Title of the user activity for adding carbs */
-"Add Carb Entry" = "Lisää hiilihydraatteja";
+"Add Carb Entry" = "Ajouter des glucides";
 
 /* Button text to confirm manual bolus on Apple Watch */
 "Bolus" = "Bolus";
 
 /* The title of the alert controller displayed after a bolus attempt fails */
-"Bolus Failed" = "Bolus epäonnistui";
+"Bolus Failed" = "Échec du bolus";
 
 /* Alert title for updated bolus recommendation on Apple Watch */
-"Bolus Recommendation Updated" = "Bolussuositus päivitetty";
+"Bolus Recommendation Updated" = "Recommandation de Bolus modifiée";
 
 /* Button text to continue from carb entry to bolus entry on Apple Watch */
-"Continue" = "Jatka";
+"Continue" = "Continuer";
 
 /* The short unit display string for decibles */
 "dB" = "dB";
 
 /* The action button title to dismiss an error message */
-"Dismiss" = "Ohita";
+"Dismiss" = "Fermer";
 
 /* Short unit label for gram measurement
    The short unit display string for grams */
@@ -44,11 +44,11 @@
 /* The recovery message displayed after a bolus attempt fails
    The recovery message displayed after a carb entry send attempt fails
    The recovery message displayed after a glucose range override send attempt fails */
-"Make sure your iPhone is nearby and try again" = "Varmista, että iPhone on riittävän lähellä ja yritä uudelleen";
+"Make sure your iPhone is nearby and try again" = "Assurez-vous que votre iPhone est à proximité et réessayez";
 
 /* The recovery message displayed after a bolus attempt fails
    The recovery message displayed after a potential carb entry send attempt fails */
-"Make sure your iPhone is nearby and try again." = "Varmista, että iPhone on riittävän lähellä ja yritä uudelleen.";
+"Make sure your iPhone is nearby and try again." = "Assurez-vous que votre iPhone est à proximité et réessayez.";
 
 /* The short unit display string for milligrams of glucose per decilter */
 "mg/dL" = "mg/dL";
@@ -57,56 +57,56 @@
 "mmol/L" = "mmol/L";
 
 /* HUD row title for Net Basal Rate */
-"Net Basal Rate" = "Basaali netto";
+"Net Basal Rate" = "Débit basal net";
 
 /* Label for off button */
-"Off" = "Pois päältä";
+"Off" = "Désactivé";
 
 /* No comment provided by engineer. */
 "OK" = "OK";
 
 /* Label for on button */
-"On" = "Päällä";
+"On" = "Activé";
 
 /* The text for the Watch button for enabling a temporary override */
-"Override" = "Tilapäisas.";
+"Override" = "Ajustement";
 
 /* Alert message for updated bolus recommendation on Apple Watch */
-"Please reconfirm the bolus amount." = "Vahvista bolus uudelleen.";
+"Please reconfirm the bolus amount." = "Veuillez reconfirmer le bolus.";
 
 /* Title for sheet to enable/disable pre-meal on watch */
-"Pre-Meal" = "Ennen ateriaa";
+"Pre-Meal" = "Pré-Repas";
 
 /* The text for the Watch button for enabling a custom preset */
-"Preset" = "Esiasetus";
+"Preset" = "Préréglage";
 
 /* Format string for combining localized numeric value and unit. (1: numeric value)(2: unit) */
 "QUANTITY_VALUE_AND_UNIT" = "%1$@ %2$@";
 
 /* The label and value showing the recommended bolus */
-"Rec: %@ U" = "Suosit: %@ U";
+"Rec: %@ U" = "Rec: %@ U";
 
 /* Recommended bolus amount label on Apple Watch */
-"REC: %@ U" = "SUOSIT: %@ U";
+"REC: %@ U" = "REC : %@ U";
 
 /* Indicator that recommended bolus computation is in progress on Apple Watch */
-"REC: Calculating..." = "SUOSIT: Lasketaan...";
+"REC: Calculating..." = "REC: Calcul en cours...";
 
 /* HUD row title for remaining reservoir volume */
-"Reservoir Volume" = "Säiliön määrä";
+"Reservoir Volume" = "Volume du réservoir";
 
 /* Button text to confirm carb entry without bolusing on Apple Watch */
-"Save" = "Tallenna";
+"Save" = "Sauvegarder";
 
 /* Button text to confirm carb entry and bolus on Apple Watch */
-"Save & Bolus" = "Tallenna & Bolus";
+"Save & Bolus" = "Sauvegarder & envoyer Bolus";
 
 /* The title of the alert controller displayed after a carb entry send attempt fails
    The title of the alert controller displayed after a glucose range override send attempt fails */
-"Send Failed" = "Lähetys epäonnistui";
+"Send Failed" = "Echec de l'envoi";
 
 /* Help text for bolus confirmation on Apple Watch */
-"Turn Digital Crown\nto bolus" = "Vahvista pyörittämällä Digital Crownia";
+"Turn Digital Crown\nto bolus" = "Tourner la Digital Crown pour envoyer le bolus";
 
 /* The short unit display string for international units of insulin */
 "U" = "U";
@@ -115,7 +115,7 @@
 "U/hr" = "U/h";
 
 /* The title of the alert controller displayed after a potential carb entry send attempt fails */
-"Unable to Reach iPhone" = "iPhoneen ei saada yhteyttä";
+"Unable to Reach iPhone" = "Impossible d’atteindre l’iPhone";
 
 /* The text for the Watch button for enabling workout mode */
-"Workout" = "Liikunta";
+"Workout" = "Exercice";
