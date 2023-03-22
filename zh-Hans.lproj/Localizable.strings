@@ -1,32 +1,38 @@
-/* Accessbility format value describing glucose: (1: glucose number)(2: glucose time) */
-"%1$@ at %2$@" = "%1$@ at %2$@";
+/* HUD row title for COB */
+"Active Carbs" = "Active Carbs";
 
-/* Accessibility format string describing the basal rate. (1: localized basal rate value)(2: last updated time) */
-"%1$@ units per hour at %2$@" = "%1$@ units per hour at %2$@";
+/* HUD row title for IOB */
+"Active Insulin" = "Active Insulin";
 
-/* Format string describing glucose units per minute (1: glucose unit string) */
-"%1$@/min" = "%1$@/min";
+/* The title of the alert controller displayed after a bolus attempt fails */
+"Bolus Failed" = "Bolus Failed";
 
-/* Format string describing the time interval since the last completion date. (1: The localized date components */
-"%@ ago" = "%@ ago";
+/* The action button title to dismiss an error message */
+"Dismiss" = "Dismiss";
 
-/* The format string describing the basal rate. */
-"%@ U" = "%@ U";
+/* The recovery message displayed after a bolus attempt fails
+   The recovery message displayed after a carb entry send attempt fails
+   The recovery message displayed after a glucose range override send attempt fails */
+"Make sure your iPhone is nearby and try again" = "Make sure your iPhone is nearby and try again";
 
-/* Accessibility hint describing completion HUD for a closed loop */
-"Closed loop" = "Closed loop";
+/* HUD row title for Net Basal Rate */
+"Net Basal Rate" = "Net Basal Rate";
 
-/* Accessbility format label describing the time interval since the last completion date. (1: The localized date components) */
-"Loop ran %@ ago" = "Loop ran %@ ago";
+/* The text for the Watch button for enabling a temporary override */
+"Override" = "Override";
 
-/* Accessibility label component for glucose HUD describing an invalid state */
-"Needs attention" = "Needs attention";
+/* The label and value showing the recommended bolus */
+"Rec: %@ U" = "Rec: %@ U";
 
-/* Accessbility hint describing completion HUD for an open loop */
-"Open loop" = "Open loop";
+/* HUD row title for remaining reservoir volume */
+"Reservoir Volume" = "Reservoir Volume";
 
-/* Accessibility value for an unknown value */
-"Unknown" = "Unknown";
+/* The title of the alert controller displayed after a carb entry send attempt fails
+   The title of the alert controller displayed after a glucose range override send attempt fails */
+"Send Failed" = "Send Failed";
 
-/* Acessibility label describing completion HUD waiting for first run */
-"Waiting for first run" = "Waiting for first run";
+/* The short unit display string for international units of insulin delivery per hour */
+"U/hr" = "U/hr";
+
+/* The text for the Watch button for enabling workout mode */
+"Workout" = "Workout";
