@@ -1,26 +1,32 @@
-/* Message when offering bolus recommendation even though bg is below range. (1: glucose value) */
-"Current glucose of %1$@ is below correction range." = "当前血糖%1$@低于纠正目标.";
+/* Lesson subtitle */
+"Computes the percentage of glucose measurements within a specified range" = "حساب النسبة المئوية لقراءات سكر الدم ضمن نطاق محدد";
 
-/* The short unit display string for decibles */
-"dB" = "dB";
+/* Title of the button to begin lesson execution */
+"Continue" = "متابعة";
 
-/* The short unit display string for grams */
-"g" = "克";
+/* Placeholder for upper range entry */
+"Maximum" = "الحد الأعلى";
 
-/* The short unit display string for milligrams of glucose per decilter */
-"mg/dL" = "毫克/分升";
+/* Placeholder for lower range entry */
+"Minimum" = "الحد الأدنى";
 
-/* The short unit display string for millimoles of glucose per liter */
-"mmol/L" = "毫摩尔/升";
+/* Lesson title */
+"Modal Day" = "يوم طبيعي";
 
-/* Message when offering bolus recommendation even though bg is below range and minBG is in future. (1: glucose time)(2: glucose number) */
-"Predicted glucose at %1$@ is %2$@." = "未来%1$@时间的血糖为%2$@.";
+/* Lesson result text for no data */
+"No data available" = "لا يوجد بيانات متاحة";
 
-/* Notice message when recommending bolus when BG is below the suspend threshold. (1: glucose value) */
-"Predicted glucose of %1$@ is below your suspend threshold setting." = "预计血糖%1$@低于低血糖暂停阈值";
+/* Section title for glucose range */
+"Range" = "النطاق";
 
-/* Format string for combining localized numeric value and unit. (1: numeric value)(2: unit) */
-"QUANTITY_VALUE_AND_UNIT" = "%1$@ %2$@";
+/* Title of config entry */
+"Start Date" = "تاريخ البداية";
 
-/* The short unit display string for international units of insulin */
-"U" = "单位";
+/* Lesson title */
+"Time in Range" = "الوقت في النطاق";
+
+/* Lesson subtitle */
+"Visualizes the most frequent glucose values by time of day" = "يعرض قراءات سكر الدم الأكثر شيوعًا في أوقات مختلفة من اليوم";
+
+/* Unit string for a count of calendar weeks */
+"Weeks" = "أسابيع";
