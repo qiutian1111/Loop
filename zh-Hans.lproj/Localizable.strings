@@ -1,32 +1,32 @@
 /* Lesson subtitle */
-"Computes the percentage of glucose measurements within a specified range" = "Calcula a porcentagem de medições de glicose dentro de um intervalo especificado";
+"Computes the percentage of glucose measurements within a specified range" = "Calculează procentul măsurătorilor glicemice dintr-un interval specificat";
 
 /* Title of the button to begin lesson execution */
-"Continue" = "Continuar";
+"Continue" = "Continuă";
 
 /* Placeholder for upper range entry */
-"Maximum" = "Máximo";
+"Maximum" = "Maxim";
 
 /* Placeholder for lower range entry */
-"Minimum" = "Mínimo";
+"Minimum" = "Minim";
 
 /* Lesson title */
-"Modal Day" = "Dia Modal";
+"Modal Day" = "Zi modală";
 
 /* Lesson result text for no data */
-"No data available" = "Não há dados disponíveis";
+"No data available" = "Date inexistente";
 
 /* Section title for glucose range */
-"Range" = "Variação";
+"Range" = "Interval";
 
 /* Title of config entry */
-"Start Date" = "Data de Início";
+"Start Date" = "Dată inițială";
 
 /* Lesson title */
-"Time in Range" = "Tempo na Meta";
+"Time in Range" = "Timp petrecut în interval";
 
 /* Lesson subtitle */
-"Visualizes the most frequent glucose values by time of day" = "Visualiza os valores de glicose mais frequentes por hora do dia";
+"Visualizes the most frequent glucose values by time of day" = "Vizualizează cele mai frecvente valori glicemice în funcție de oră";
 
 /* Unit string for a count of calendar weeks */
-"Weeks" = "Semanas";
+"Weeks" = "Săptămâni";
