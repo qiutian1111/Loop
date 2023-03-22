@@ -2,7 +2,7 @@
 "---" = "---";
 
 /* No comment provided by engineer. */
-"-U" = "-E";
+"-U" = "-IE";
 
 /* No comment provided by engineer. */
 "??" = "??";
@@ -11,7 +11,7 @@
 "%@" = "%@";
 
 /* No comment provided by engineer. */
-"%@ U" = "%@ E";
+"%@ U" = "%@ IE";
 
 /* The format string for the app name and version number. (1: bundle name)(2: bundle version) */
 "%1$@ v%2$@" = "%1$@ v%2$@";
@@ -20,13 +20,13 @@
 "dB" = "dB";
 
 /* No comment provided by engineer. */
-"Eventual" = "Eventuel";
+"Eventual" = "Eventuell";
 
 /* The short unit display string for grams */
 "g" = "g";
 
 /* No comment provided by engineer. */
-"Loop Status Widget" = "Widget til loop-status";
+"Loop Status Widget" = "Loop Status Widget";
 
 /* The short unit display string for milligrams of glucose per decilter */
 "mg/dL" = "mg/dL";
@@ -38,7 +38,7 @@
 "QUANTITY_VALUE_AND_UNIT" = "%1$@ %2$@";
 
 /* No comment provided by engineer. */
-"See your current blood glucose and insulin delivery." = "Se dit nuværende blodsukker og insulindosering.";
+"See your current blood glucose and insulin delivery." = "Sehen Sie sich Ihre aktuelle Blutzucker- und Insulinabgabe an.";
 
 /* The short unit display string for international units of insulin */
-"U" = "E";
+"U" = "IE";
