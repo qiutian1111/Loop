@@ -2,10 +2,13 @@
 "%1$@ v%2$@" = "%1$@ v%2$@";
 
 /* Title of the user activity for adding carbs */
-"Add Carb Entry" = "Adicionar Carboidratos";
+"Add Carb Entry" = "Adăugare carbohidrați";
+
+/* Lesson subtitle */
+"Computes the percentage of glucose measurements within a specified range" = "Calculează procentul măsurătorilor glicemice dintr-un interval specificat";
 
 /* Title of the button to begin lesson execution */
-"Continue" = "Continuar";
+"Continue" = "Continuă";
 
 /* The short unit display string for decibles */
 "dB" = "dB";
@@ -14,40 +17,40 @@
 "g" = "g";
 
 /* Placeholder for upper range entry */
-"Maximum" = "Máximo";
+"Maximum" = "Maxim";
 
 /* The short unit display string for milligrams of glucose per decilter */
 "mg/dL" = "mg/dL";
 
 /* Placeholder for lower range entry */
-"Minimum" = "Mínimo";
+"Minimum" = "Minim";
 
 /* The short unit display string for millimoles of glucose per liter */
 "mmol/L" = "mmol/L";
 
 /* Lesson title */
-"Modal Day" = "Dia Modal";
+"Modal Day" = "Zi modală";
 
 /* Lesson result text for no data */
-"No data available" = "Não há dados disponíveis";
+"No data available" = "Date inexistente";
 
 /* Format string for combining localized numeric value and unit. (1: numeric value)(2: unit) */
 "QUANTITY_VALUE_AND_UNIT" = "%1$@ %2$@";
 
 /* Section title for glucose range */
-"Range" = "Variação";
+"Range" = "Interval";
 
 /* Title of config entry */
-"Start Date" = "Data de Início";
+"Start Date" = "Dată inițială";
 
 /* Lesson title */
-"Time in Range" = "Tempo na Meta";
+"Time in Range" = "Timp petrecut în interval";
 
 /* The short unit display string for international units of insulin */
 "U" = "U";
 
 /* Lesson subtitle */
-"Visualizes the most frequent glucose values by time of day" = "Visualiza os valores de glicose mais frequentes por hora do dia";
+"Visualizes the most frequent glucose values by time of day" = "Vizualizează cele mai frecvente valori glicemice în funcție de oră";
 
 /* Unit string for a count of calendar weeks */
-"Weeks" = "Semanas";
+"Weeks" = "Săptămâni";
