@@ -1,38 +1,35 @@
 /* Displayed in the widget when the amount of active carbs cannot be determined. */
-"? g" = "? г";
+"? g" = "? g";
 
 /* Displayed in the widget when the amount of active insulin cannot be determined. */
-"? U" = "? ед.";
+"? U" = "? j";
 
 /* The subtitle format describing the grams of active carbs.  (1: localized carb value description) */
 "%1$@" = "%1$@";
 
 /* The subtitle format describing units of active insulin. (1: localized insulin value description) */
-"%1$@ U" = "%1$@ Ед.";
+"%1$@ U" = "%@ j";
 
 /* The format string for the app name and version number. (1: bundle name)(2: bundle version) */
-"%1$@ v%2$@" = "%1$@ против %2$@";
+"%1$@ v%2$@" = "%1$@ v %2$@";
 
 /* Widget label title describing the active carbs */
-"Active Carbs" = "Активные углеводы";
+"Active Carbs" = "Aktívne sacharidy";
 
 /* Widget label title describing the active insulin */
-"Active Insulin" = "Активный инсулин";
+"Active Insulin" = "Aktívny inzulín";
 
 /* The short unit display string for decibles */
-"dB" = "дБ";
-
-/* The subtitle format describing eventual glucose.  (1: localized glucose value description) */
-"Eventually %1$@" = "В конечном итоге %1$@";
+"dB" = "dB";
 
 /* The short unit display string for grams */
-"g" = "г";
+"g" = "g";
 
 /* The subtitle format describing units of active insulin. (1: localized insulin value description) */
-"IOB %1$@ U" = "IOB %1$@ ед";
+"IOB %1$@ U" = "IOB %1$@ j";
 
 /* The short unit display string for milligrams of glucose per decilter */
-"mg/dL" = "мг/дл";
+"mg/dL" = "mg/dL";
 
 /* The short unit display string for millimoles of glucose per liter */
 "mmol/L" = "mmol/L";
@@ -41,4 +38,4 @@
 "QUANTITY_VALUE_AND_UNIT" = "%1$@ %2$@";
 
 /* The short unit display string for international units of insulin */
-"U" = "ед";
+"U" = "j";
