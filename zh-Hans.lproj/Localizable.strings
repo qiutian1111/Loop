@@ -2,55 +2,52 @@
 "%1$@ v%2$@" = "%1$@ v%2$@";
 
 /* Title of the user activity for adding carbs */
-"Add Carb Entry" = "Adăugare carbohidrați";
+"Add Carb Entry" = "Введите углеводы";
 
 /* Lesson subtitle */
-"Computes the percentage of glucose measurements within a specified range" = "Calculează procentul măsurătorilor glicemice dintr-un interval specificat";
+"Computes the percentage of glucose measurements within a specified range" = "Вычисляет процент измерений глюкозы в заданном диапазоне";
 
 /* Title of the button to begin lesson execution */
-"Continue" = "Continuă";
+"Continue" = "Продолжить";
 
 /* The short unit display string for decibles */
 "dB" = "dB";
 
 /* The short unit display string for grams */
-"g" = "g";
+"g" = "г";
 
 /* Placeholder for upper range entry */
-"Maximum" = "Maxim";
+"Maximum" = "Максимум";
 
 /* The short unit display string for milligrams of glucose per decilter */
-"mg/dL" = "mg/dL";
+"mg/dL" = "мг/дл";
 
 /* Placeholder for lower range entry */
-"Minimum" = "Minim";
+"Minimum" = "Минимум";
 
 /* The short unit display string for millimoles of glucose per liter */
-"mmol/L" = "mmol/L";
-
-/* Lesson title */
-"Modal Day" = "Zi modală";
+"mmol/L" = "ммоль/л";
 
 /* Lesson result text for no data */
-"No data available" = "Date inexistente";
+"No data available" = "Данные недоступны";
 
 /* Format string for combining localized numeric value and unit. (1: numeric value)(2: unit) */
 "QUANTITY_VALUE_AND_UNIT" = "%1$@ %2$@";
 
 /* Section title for glucose range */
-"Range" = "Interval";
+"Range" = "Диапазон";
 
 /* Title of config entry */
-"Start Date" = "Dată inițială";
+"Start Date" = "Дата начала";
 
 /* Lesson title */
-"Time in Range" = "Timp petrecut în interval";
+"Time in Range" = "Время в диапазоне";
 
 /* The short unit display string for international units of insulin */
-"U" = "U";
+"U" = "ед";
 
 /* Lesson subtitle */
-"Visualizes the most frequent glucose values by time of day" = "Vizualizează cele mai frecvente valori glicemice în funcție de oră";
+"Visualizes the most frequent glucose values by time of day" = "Визуализация наиболее частых значений глюкозы по времени суток";
 
 /* Unit string for a count of calendar weeks */
-"Weeks" = "Săptămâni";
+"Weeks" = "Недели";
