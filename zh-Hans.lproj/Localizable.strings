@@ -1,32 +1,32 @@
 /* Lesson subtitle */
-"Computes the percentage of glucose measurements within a specified range" = "Calcola la percentuale delle misurazioni di glucosio all’interno di un intervallo specifico";
+"Computes the percentage of glucose measurements within a specified range" = "指定範囲内の測定値の割合を算出";
 
 /* Title of the button to begin lesson execution */
-"Continue" = "Continua";
+"Continue" = "次へ";
 
 /* Placeholder for upper range entry */
-"Maximum" = "Massimo";
+"Maximum" = "最大";
 
 /* Placeholder for lower range entry */
-"Minimum" = "Minimo";
+"Minimum" = "最小";
 
 /* Lesson title */
-"Modal Day" = "Modalità giornaliera";
+"Modal Day" = "Modal Day";
 
 /* Lesson result text for no data */
-"No data available" = "Nessun dato disponibile";
+"No data available" = "データがありません";
 
 /* Section title for glucose range */
-"Range" = "Intervallo";
+"Range" = "範囲";
 
 /* Title of config entry */
-"Start Date" = "Data di inizio";
+"Start Date" = "開始日";
 
 /* Lesson title */
-"Time in Range" = "Tempo nell’intervallo";
+"Time in Range" = "タイムインレンジ";
 
 /* Lesson subtitle */
-"Visualizes the most frequent glucose values by time of day" = "Visualizza i valori di glucosio più frequenti per ora del giorno";
+"Visualizes the most frequent glucose values by time of day" = "頻度の高い測定値を時間ごとに表示";
 
 /* Unit string for a count of calendar weeks */
-"Weeks" = "Settimane";
+"Weeks" = "週";
