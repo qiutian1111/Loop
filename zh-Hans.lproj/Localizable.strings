@@ -1,5 +1,5 @@
 /* Displayed in the widget when the amount of active carbs cannot be determined. */
-"? g" = "? gr";
+"? g" = "? g";
 
 /* Displayed in the widget when the amount of active insulin cannot be determined. */
 "? U" = "? U";
@@ -14,16 +14,16 @@
 "%1$@ v%2$@" = "%1$@ v%2$@";
 
 /* Widget label title describing the active carbs */
-"Active Carbs" = "Carbohidratos Activos";
+"Active Carbs" = "Akt. hiilari";
 
 /* Widget label title describing the active insulin */
-"Active Insulin" = "Insulina activa";
+"Active Insulin" = "Akt. insuliini";
 
 /* The short unit display string for decibles */
 "dB" = "dB";
 
 /* The subtitle format describing eventual glucose.  (1: localized glucose value description) */
-"Eventually %1$@" = "Eventualmente %1$@";
+"Eventually %1$@" = "Ennuste %1$@";
 
 /* The short unit display string for grams */
 "g" = "g";
