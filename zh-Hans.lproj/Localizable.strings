@@ -1,29 +1,17 @@
-/* Displayed in the widget when the amount of active carbs cannot be determined. */
-"? g" = "? g";
-
-/* Displayed in the widget when the amount of active insulin cannot be determined. */
-"? U" = "? U";
-
-/* The subtitle format describing the grams of active carbs.  (1: localized carb value description) */
-"%1$@" = "%1$@";
-
-/* The subtitle format describing units of active insulin. (1: localized insulin value description) */
-"%1$@ U" = "%1$@ U";
-
 /* The format string for the app name and version number. (1: bundle name)(2: bundle version) */
-"%1$@ v%2$@" = "%1$@ contro %2$@";
+"%1$@ v%2$@" = "%1$@ v%2$@";
 
 /* Widget label title describing the active carbs */
-"Active Carbs" = "Carb Attivi";
+"Active Carbs" = "残存糖質";
 
 /* Widget label title describing the active insulin */
-"Active Insulin" = "Insulina attiva";
+"Active Insulin" = "残存インスリン";
 
 /* The short unit display string for decibles */
 "dB" = "dB";
 
 /* The subtitle format describing eventual glucose.  (1: localized glucose value description) */
-"Eventually %1$@" = "Probabile Glic. %1$@";
+"Eventually %1$@" = "予想 %1$@";
 
 /* The short unit display string for grams */
 "g" = "g";
