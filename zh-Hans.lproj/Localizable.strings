@@ -2,7 +2,7 @@
 "%1$@ v%2$@" = "%1$@ v%2$@";
 
 /* Title string for automatic bolus dosing strategy */
-"Automatic Bolus" = "Automatischer Bolus";
+"Automatic Bolus" = "Automatic Bolus";
 
 /* Title string for temp basal only dosing strategy */
-"Temp Basal Only" = "Nur temporäre Basalrate";
+"Temp Basal Only" = "Temp Basal Only";
