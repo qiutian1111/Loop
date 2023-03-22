@@ -2,13 +2,13 @@
 "%1$@ v%2$@" = "%1$@ v%2$@";
 
 /* Title of the user activity for adding carbs */
-"Add Carb Entry" = "Legg til karbohydrater";
+"Add Carb Entry" = "Koolhydraatinvoer Toevoegen";
 
 /* Lesson subtitle */
-"Computes the percentage of glucose measurements within a specified range" = "Beregner prosentandelen av blodsukkermålinger innenfor et spesifisert område";
+"Computes the percentage of glucose measurements within a specified range" = "Berekent het percentage glucosemetingen in een specifiek bereik";
 
 /* Title of the button to begin lesson execution */
-"Continue" = "Fortsett";
+"Continue" = "Ga Verder";
 
 /* The short unit display string for decibles */
 "dB" = "dB";
@@ -17,7 +17,7 @@
 "g" = "g";
 
 /* Placeholder for upper range entry */
-"Maximum" = "Maksimum";
+"Maximum" = "Maximum";
 
 /* The short unit display string for milligrams of glucose per decilter */
 "mg/dL" = "mg/dL";
@@ -29,28 +29,28 @@
 "mmol/L" = "mmol/L";
 
 /* Lesson title */
-"Modal Day" = "Modal dag";
+"Modal Day" = "Modale Dag";
 
 /* Lesson result text for no data */
-"No data available" = "Ingen data tilgjengelig";
+"No data available" = "Geen gegevens beschikbaar";
 
 /* Format string for combining localized numeric value and unit. (1: numeric value)(2: unit) */
 "QUANTITY_VALUE_AND_UNIT" = "%1$@ %2$@";
 
 /* Section title for glucose range */
-"Range" = "Målområde";
+"Range" = "Bereik";
 
 /* Title of config entry */
-"Start Date" = "Startdato";
+"Start Date" = "Startdatum";
 
 /* Lesson title */
-"Time in Range" = "Tid i målområdet";
+"Time in Range" = "Tijd binnen Bereik";
 
 /* The short unit display string for international units of insulin */
 "U" = "E";
 
 /* Lesson subtitle */
-"Visualizes the most frequent glucose values by time of day" = "Visualiser de nyeste blodsukkerverdier etter tid på døgnet";
+"Visualizes the most frequent glucose values by time of day" = "Geeft de meest voorkomende glucosewaarden weer per moment van de dag";
 
 /* Unit string for a count of calendar weeks */
-"Weeks" = "Uker";
+"Weeks" = "Weken";
