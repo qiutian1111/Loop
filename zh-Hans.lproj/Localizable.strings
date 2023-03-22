@@ -2,13 +2,13 @@
 "%1$@ v%2$@" = "%1$@ v%2$@";
 
 /* Title of the user activity for adding carbs */
-"Add Carb Entry" = "Koolhydraatinvoer Toevoegen";
+"Add Carb Entry" = "Dodaj pozycję dla węglowodanów";
 
 /* Lesson subtitle */
-"Computes the percentage of glucose measurements within a specified range" = "Berekent het percentage glucosemetingen in een specifiek bereik";
+"Computes the percentage of glucose measurements within a specified range" = "Oblicza procent pomiarów glukozy w określonym zakresie";
 
 /* Title of the button to begin lesson execution */
-"Continue" = "Ga Verder";
+"Continue" = "Kontynuuj";
 
 /* The short unit display string for decibles */
 "dB" = "dB";
@@ -17,40 +17,40 @@
 "g" = "g";
 
 /* Placeholder for upper range entry */
-"Maximum" = "Maximum";
+"Maximum" = "Maksymalnie";
 
 /* The short unit display string for milligrams of glucose per decilter */
 "mg/dL" = "mg/dL";
 
 /* Placeholder for lower range entry */
-"Minimum" = "Minimum";
+"Minimum" = "Minimalnie";
 
 /* The short unit display string for millimoles of glucose per liter */
 "mmol/L" = "mmol/L";
 
 /* Lesson title */
-"Modal Day" = "Modale Dag";
+"Modal Day" = "Dzień modalny";
 
 /* Lesson result text for no data */
-"No data available" = "Geen gegevens beschikbaar";
+"No data available" = "Brak danych";
 
 /* Format string for combining localized numeric value and unit. (1: numeric value)(2: unit) */
 "QUANTITY_VALUE_AND_UNIT" = "%1$@ %2$@";
 
 /* Section title for glucose range */
-"Range" = "Bereik";
+"Range" = "Zasięg";
 
 /* Title of config entry */
-"Start Date" = "Startdatum";
+"Start Date" = "Data rozpoczęcia";
 
 /* Lesson title */
-"Time in Range" = "Tijd binnen Bereik";
+"Time in Range" = "Czas w zakresie (TIR)";
 
 /* The short unit display string for international units of insulin */
-"U" = "E";
+"U" = "J";
 
 /* Lesson subtitle */
-"Visualizes the most frequent glucose values by time of day" = "Geeft de meest voorkomende glucosewaarden weer per moment van de dag";
+"Visualizes the most frequent glucose values by time of day" = "Wizualizuje najczęstsze wartości glukozy według pory dnia";
 
 /* Unit string for a count of calendar weeks */
-"Weeks" = "Weken";
+"Weeks" = "Tygodnie";
